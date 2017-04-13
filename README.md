@@ -1,1 +1,2 @@
 # munyudroid
+Twitterでいろいろ遊ぶためのbotです。
