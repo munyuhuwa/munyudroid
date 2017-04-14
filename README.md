@@ -27,12 +27,12 @@ http://www.sat.t.u-tokyo.ac.jp/~omi/random_variables_generation.html
 
 # トラブルシューティング記録
 - 再接続後落ちる現象が発生
-  - 原因 シェルスクリプトからPythonを実行しているため、直接Pythonを実行したときとカレントディレクトリが異なっていた。
-  - 解決策 シェルスクリプトに
-    cd $(dirname $0)
-    を加える
-  - 原因 文字コードの設定がなぜか消えていた
-  - 解決策 export PYTHONIOENCODING=utf-8 する
+ - 原因 シェルスクリプトからPythonを実行しているため、直接Pythonを実行したときとカレントディレクトリが異なっていた。
+ - 解決策 シェルスクリプトに
+   cd $(dirname $0)
+   を加える
+ - 原因 文字コードの設定がなぜか消えていた
+ - 解決策 export PYTHONIOENCODING=utf-8 する
 
 
 
